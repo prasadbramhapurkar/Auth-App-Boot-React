@@ -1,0 +1,4 @@
+#QA versions of configurations
+
+server:
+  port: 8081
