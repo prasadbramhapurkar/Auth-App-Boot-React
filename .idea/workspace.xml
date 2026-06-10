@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c1cb058-0443-40ae-8faa-b0a98e1acfcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/auth-app-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-app-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-app-backend/src/main/java/com/substring/auth/auth_app_backend/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-app-backend/src/main/java/com/substring/auth/auth_app_backend/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-app-backend/src/main/java/com/substring/auth/auth_app_backend/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-app-backend/src/main/java/com/substring/auth/auth_app_backend/services/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;prasadbramhapurkar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prasadbramhapurkar/Auth-App-Boot-React.git&quot;,
+    &quot;accountId&quot;: &quot;dfbcd52b-7e5f-4249-8702-4cba47f580dd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3Esso6oEEMxJdCe1WjuaTCnbrfs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AuthAppBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/usersAPI&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SpringBoot/auth-app/Auth-App-Boot-React&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.substring.auth.auth_app_backend.dtos" />
+      <recent name="com.substring.auth.auth_app_backend.entities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthAppBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.substring.auth.auth_app_backend.AuthAppBackendApplication" />
+      <module name="auth-app-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.substring.auth.auth_app_backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthAppBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c1cb058-0443-40ae-8faa-b0a98e1acfcf" name="Changes" comment="" />
+      <created>1780978783875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780978783875</updated>
+    </task>
+    <servers />
+  </component>
+</project>
