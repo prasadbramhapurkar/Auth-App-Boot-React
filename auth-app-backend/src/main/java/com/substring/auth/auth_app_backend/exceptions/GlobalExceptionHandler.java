@@ -1,7 +1,15 @@
 package com.substring.auth.auth_app_backend.exceptions;
 
+import com.substring.auth.auth_app_backend.dtos.ApiError;
+import jakarta.servlet.http.HttpServletRequest;
+import org.hibernate.exception.AuthException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.CredentialsExpiredException;
+import org.springframework.security.authentication.DisabledException;
+import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -18,5 +26,16 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ErrorResponse> handleIllegalArgumentException(IllegalArgumentException exception){
         ErrorResponse illegalArgumentException = new ErrorResponse(exception.getMessage(),HttpStatus.BAD_REQUEST);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(illegalArgumentException);
+    }
+
+    @ExceptionHandler({
+            UsernameNotFoundException.class,
+            BadCredentialsException.class,
+            CredentialsExpiredException.class,
+            DisabledException.class
+    })
+    public ResponseEntity<ApiError> handleAuthException(Exception e, HttpServletRequest request){
+        var apiError = ApiError.of(HttpStatus.BAD_REQUEST.value(),"Bad request",e.getMessage(),request.getRequestURI());
+        return ResponseEntity.badRequest().body(apiError);
     }
 }
